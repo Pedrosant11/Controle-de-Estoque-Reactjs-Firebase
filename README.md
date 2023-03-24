@@ -3,6 +3,7 @@ Projeto de controle de estoque usando React e Firebase.
 
 * Login usando Firebase
 * Cadastro com email e senha authentication
+* Registro de produtos, valor e quantidade
 
 ## Firebase
 
