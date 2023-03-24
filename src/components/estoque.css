@@ -1,0 +1,26 @@
+.add-estoque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-estoque input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 179, 179);
+}
+
+.botoes button{
+    margin-right: 5px;
+}
+
+.lista-nav li .link-nav{
+    text-decoration: none;
+    color: #fff;
+}
+
+.lista-nav li .link-nav:hover{
+    text-decoration: none;
+    color: aqua;
+}
