@@ -8,29 +8,7 @@ Projeto de controle de estoque usando React e Firebase.
 
 1 - Crie um banco de dados no Firebase
 
-2 - Copiar o código que for dado, por exemplo: 
-```
-import firebase from 'firebase/compat/app';
-import 'firebase/compat/auth';
-import 'firebase/compat/firestore';
-import "firebase/compat/database";
-import "firebase/compat/storage";
-
-firebase.initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
-  measurementId: process.env.REACT_APP_MEASUREMENT_ID
-});
-
-export default firebase;
-
-```
-
-3 - Crie um arquivo .env e coloque as chaves com essas variáveis
+2 - Crie um arquivo .env e coloque as chaves com essas variáveis
 ```
 REACT_APP_API_KEY=
 REACT_APP_AUTH_DOMAIN=
@@ -41,7 +19,7 @@ REACT_APP_APP_ID=
 REACT_APP_MEASUREMENT_ID=
 ```
 
-4 - Altere as regras do banco para true
+3 - Altere as regras do banco para true
 
 ```
 rules_version = '2';
